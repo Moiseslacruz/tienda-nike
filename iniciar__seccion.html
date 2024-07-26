@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="estilo.css">
+    <title>inicia seccion</title>
+</head>
+
+<body class="data-bs-spy=" scroll" data-bs-target="#navbar-example3" data-bs-offset="140" tabindex="0">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="png-clipart-nike-jumpman-shoe-casual-adidas-yeezy-nike-angle-logo.webp" width="80" alt="">
+          <a class="navbar-brand boton-sombra p-2 rounded" href="index.html">inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse border-white navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-block text-center active boton-sombra rounded" href="#contacto">contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-2">
+              <div class="dropdown">
+                <a class="btn btn-dark boton-sombra text-center me-md-1">
+                  <i class="bi bi-cart2 h3"></i>
+                </a>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-dark boton-sombra text-center me-md-1" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-fill h3"></i>
+                </button>
+                <ul class="dropdown-menu text-center mt-2" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">mi perfil</a></li>
+                  <hr class="m-0">
+                  <li><a class="dropdown-item" href="registro.html">registrate</a></li>
+                  <hr class="m-0">
+                  <li><a class="dropdown-item" href="#">cerrar seccion</a></li>
+                </ul>
+              </div>
+              <input class="form-control me-2" type="search" placeholder="busqueda rapida" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <main class=" pt-5 mt-5">
+        <form class="inicio__seccion border border-dark p-5 ">
+            <div class="mb-3">
+                <h2 class="text-center">inicia seccion</h2>
+                <hr>
+              <label for="exampleInputEmail1" class="form-label d-block">ingresa tu email</label>
+              <input type="email" class="form-control border border-dark" required id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-center">ingresa tus datos para iniciar seccion.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">contraseña</label>
+              <input type="password" class="form-control border border-dark"required id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">¿recordar contraseña?</label>
+            </div>
+            <a href="" class="d-block text-center text-decoration-none text-dark">¿olvidaste tu contraseña?</a>
+            <button type="button" class="btn mx-auto d-block mt-3 btn-outline-dark text-align-center">iniciar seccion</button>
+          </form>
+      </main>
+
+      <footer class="bg-warning mt-5" id="contacto">
+        <div class="container">
+          <h2 class="text-center text-dark pt-5 h1">contactanos</h2>
+          <div class="row">
+            <div class="d-md-flex  justify-content-md-between p-5 ">
+              <div class=" d-flex justify-content-center  gap-2">
+                <i class="bi bi-whatsapp h1"></i>
+                <p class="h4">telefono:</p>
+                <a href="tel:04241919283" class="text-decoration-none text-white h4">04241919283</a>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+                <i class="bi bi-facebook h1"></i>
+                <p class="h4">facebook</p>
+                <a href="https://www.facebook.com/moises.lacruz.5201/" class="text-decoration-none text-white h4">Moises la
+                  cruz</a>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+                <i class="bi bi-instagram h1"></i>
+                <p class="h4">instagram</p>
+                <a href="https://www.instagram.com/moises_lacruz1/"
+                  class="text-decoration-none text-white h4">Moises_lacruz1</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
